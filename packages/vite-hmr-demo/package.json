@@ -1,0 +1,23 @@
+{
+  "name": "@viewfly/vite-hmr-demo",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@viewfly/core": "workspace:*",
+    "@viewfly/devtools": "workspace:*",
+    "@viewfly/platform-browser": "workspace:*"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@types/node": "^22.10.0",
+    "tailwindcss": "^4.2.4",
+    "typescript": "~5.8.3",
+    "vite": "^8.0.9"
+  }
+}
